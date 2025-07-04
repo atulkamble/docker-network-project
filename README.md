@@ -146,7 +146,7 @@ networks:
 ## 📦 Build & Run
 
 ```bash
-docker compose up --build
+docker compose up --build -d
 ```
 
 * App runs at: [http://localhost:3000](http://localhost:3000)
