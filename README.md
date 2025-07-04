@@ -16,7 +16,19 @@ docker-network-project/
 ├── package-lock.json
 └── index.js
 ```
+# run project
+```
+https://github.com/atulkamble/docker-network-project.git
+cd docker-network-project
+docker compose up --build -d
 
+sudo docker network ls
+sudo docker container ls
+sudo docker images
+
+http://instance-ip:3000
+tip: update inbound rule: custom tcp 3000 (0.0.0.0/0)
+```
 ---
 
 ## 📄 Example `package.json`
